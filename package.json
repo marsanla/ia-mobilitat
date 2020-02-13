@@ -1,0 +1,41 @@
+{
+  "name": "iamobilitat",
+  "version": "0.1.0",
+  "author": "Daniel",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm run build",
+    "start": "serve -s dist",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@google/markerclusterer": "^1.0.3",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "ant-design-vue": "^1.4.11",
+    "axios": "^0.19.2",
+    "https": "^1.0.0",
+    "ngeohash": "^0.6.3",
+    "vue": "^2.5.21",
+    "vue-moment": "^4.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "devDependencies": {
+    "@avalanche/eslint-config": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.2.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "express": "^4.17.1",
+    "serve": "^11.3.0",
+    "serve-static": "^1.14.1"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 10",
+    "not op_mini all"
+  ]
+}
